@@ -22,11 +22,17 @@
                                 <rect key="frame" x="134.5" y="164" width="145" height="172"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="134"/>
                                 <state key="normal" title="🤔"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pOn-vV-IS4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUb-tQ-yRH">
                                 <rect key="frame" x="134.5" y="536" width="145" height="172"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="134"/>
                                 <state key="normal" title="🧐"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GxR-bu-ou3"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feeling Emojional?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLM-Lb-Usr">
                                 <rect key="frame" x="14" y="402" width="386" height="72"/>
